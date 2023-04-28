@@ -1,0 +1,135 @@
+body{
+    margin:0;
+}
+.orcamento{
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    width:100vw;
+    height: 120vh;
+    background:#F0C808;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.orca-left{
+    width:50vw;
+    height:120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-left{
+    width:35vw;
+}
+.orca-left h1{
+    color:white
+}
+
+.orca-right{
+    width:50vw;
+    height:120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-orca{
+    width:80%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:30px 35px;
+    background:#101935;
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px black;
+}
+.card-orca h1{
+    color:#F0C808
+}
+.textfield{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 8px 0px;
+}
+.textfield2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textfield input{
+    width:100%;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    background:#577590;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.336);
+    outline: none;
+    box-sizing: border-box;
+    color: white;
+}
+.textfield2 input{
+    width:100%;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    background:#577590;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.336);
+    outline: none;
+}
+.textfield2 textarea{
+    width:100%;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    background:#577590;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.336);
+    outline: none;
+    margin-bottom: 10px;
+    color: white;
+}
+.textfield label{
+    color:#F0C808;
+    margin-bottom: 8px;
+}
+.textfield2 label{
+    color:#F0C808;
+    margin-bottom: 8px;
+}
+.textfield input::placeholder{
+    color:white;
+}
+.textfield2 textarea::placeholder{
+    color:white
+}
+.btn{
+    width:100%;
+    height:100%;
+    border-radius: 12px;
+    padding:16px 0px;
+    margin:25px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color:black;
+    background:#F0C808;
+    box-shadow: 0px 10px 40px black;
+    cursor: pointer;
+}
+.btn:hover{
+    border:none;
+    background: #577590;
+    color:black;
+    box-shadow: 0px 10px 40px black;
+}

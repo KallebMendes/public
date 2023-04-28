@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: 'Roboto',sans-serif;
+}
+.navhome{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: #F0C808;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    flex:25%;
+    margin-left: 5%;
+    /*border: 1px solid red; */
+    text-align: left;
+}
+.logo h1{
+    font-family: 'Lexend', sans-serif;
+    color:white;
+    font-size: 40px;
+}
+.menu{
+    flex:70%;
+    /* border:1px solid green;*/
+    text-align:right;
+    padding: 20px 16px;
+}
+.menu a{
+    color:#000000;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color:#101935;
+    border-top: 4px solid #101935;
+}
+#botao{
+    background: #101935;
+    padding:10 px 25px;
+    color: white;
+    border-radius:5px;
+    margin-right:10%;
+    margin-left: 5;
+}
+#botao:hover{
+    border:none;
+    background: #577590;
+    color:black;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.headline{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.headline-left{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 40px;
+}
+.headline-right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 40px;
+}
+.headline-right h2{
+    font-size:30px;
+    font-weight: 300;
+}
+.headline-left h2{
+    font-weight: 900;
+    font-size:50px;
+    text-align: center;
+}
+.home-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding:50px 50px;
+}
+.anuncio1{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 40px;
+}
+.img-anuncio1{
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 40px;
+}
+.anuncio2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 40px;
+}
+.img-anuncio2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 40px;
+}
+
+footer{
+    margin-top:100px;
+    height: 400px;
+    background-image: linear-gradient(180deg,#F0C808,#806c09,black);
+    text-align:center;
+    border-top:5px solid #101935 ;
+}
+.logo-rodape{
+    padding:100px;
+}
+.agencia{
+    font-family:'lobster', cursive;
+    color:white;
+    font-size:34px;
+}
+
